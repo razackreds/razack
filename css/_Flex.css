@@ -1,0 +1,91 @@
+
+@media (min-width: 1700px) {
+    .RazackText,.RazackTextRight{
+        font-size: 3.7rem !important; 
+    }
+    
+    .TopHeader{
+        font-size: 4.5rem !important;
+    } 
+}
+
+@media (min-width: 991px) {
+    .TopHeader{
+        font-size: 4rem !important;
+    }  
+}
+@media(min-width:790px){
+    .RazackLogo{
+        display: none !important;
+    }
+    .RazackText{
+        text-align: start !important;
+    }
+    .RazackTextRight{
+        text-align: end !important;
+    }
+    .holder{
+        text-align: start !important;
+    }
+  } 
+@media(max-width:769px){
+  .Razack{
+      display: none !important;
+  }
+  .RazackLogo{
+      display: inline !important;
+  }
+  .RazackText{
+      font-size: 2.1rem !important;
+  }
+  .SchemeColor{
+    font-size: 1rem !important; 
+} 
+}
+
+@media (min-width: 750px) {
+    
+}
+
+@media(min-width:648px) {
+  
+}
+
+@media (min-width: 625px) {
+    
+}
+
+@media(max-width:599px){
+  
+   
+}
+
+@media (max-width: 481px) {
+    .Tag{
+        font-size: 0.7rem !important;
+        text-align: start;
+    }
+}
+
+@media (max-width: 441px) {
+   
+}
+
+@media (max-width: 390px) {
+   
+}
+
+@media (max-width: 333px) {
+    
+}
+
+@media (max-width: 321px) {
+    
+}
+@media (max-width: 281px) {
+   
+}
+
+@media (max-width: 241px) {
+    
+}

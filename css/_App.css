@@ -1,0 +1,370 @@
+*{
+    font-size: 1rem !important;
+   font-weight: 400 !important;
+    
+    
+    font-family: 'Poppins', sans-serif !important;
+    color: #0f2a41 !important;
+}
+.Icons{
+    color: #113352ad !important;
+    font-size: 6rem !important;
+    font-weight: 100 !important; 
+}
+.navbar-brand{
+    font-weight: 300 !important;
+}
+.Youtube{
+    color: rgba(216, 84, 84, 0.671) !important;
+}
+
+.Tag{
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+.RazackText,.RazackTextRight{
+   font-size: 3.5vw !important; 
+   font-weight: 100 !important;
+}
+
+.upBg{
+    background: url(../_Imgs/_Backgrounds/blob.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.RazackImageSizing{
+    width: 30vw !important; 
+    max-width: 22rem !important; 
+}
+
+.SchemeColor{
+    color: #adadad !important;
+    font-size: 1.3vw !important;  
+}
+
+.SchemeFont{
+    color: #adadad !important;
+    font-size: 4vw !important; 
+    font-weight: 900 !important;
+}
+
+.SchemeFont img{
+   width: 7vw !important;
+   max-width: 5rem !important;
+   min-width: 4rem !important;
+}
+
+h5{
+    font-size: 1.2rem !important;
+    font-weight: 400;
+    opacity: 0.85;
+}
+
+h2{
+    font-size: 8rem !important;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.3rem !important;
+    letter-spacing: 0.1rem !important;
+    color: #143f66 !important;
+}
+.hello{
+    font-size: 2.2rem !important;
+    font-family: 'Russo One', sans-serif !important;
+    
+}
+
+
+ul li,a{
+    display:  inline;
+    text-decoration: none;
+    text-decoration-line: none !important;
+    
+}
+body,html{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff !important;
+   /* background-color:#2c3e50 !important;*/
+}
+
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+h1{
+    font-size: 5rem !important;
+    font-weight: 900 !important;
+}
+h4{
+    font-size: 2rem !important;
+}
+
+.Wrapper ul li{
+    padding: 1rem !important;
+}
+
+/* START NAV*/
+
+.Stick{
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    
+    display: flex !important;
+    flex-grow: 1 !important;
+    width: 100% !important;
+    
+    z-index: 10 !important;
+    background-color: rgba(255, 255, 255, 0.975) !important;
+    backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+nav a{
+    font-weight:100 !important ;
+    font-size: 1.2rem !important;
+}
+
+.nav-link:hover,.nav-link:active{
+   font-weight: 200 !important;
+   color: #0f2a41 !important;
+   background-color: #e7e7e7 !important; 
+}
+
+/* END NAV*/
+
+/* ===============================*/
+
+/* LANDING PAGE*/
+
+
+.LandingHR{
+    display:  flex;
+    flex-grow: 1;
+    max-width: 70% !important;
+    color: #527597;
+    height: 5px !important;
+}
+
+/* LANDING PAGE*/
+
+/* ======================*/
+
+/* ABOUT PAGE*/
+
+.AboutHR{
+    display:  flex;
+    flex-grow: 1;
+    max-width: 5px !important;
+    height: 10vw !important;
+    margin: 2px auto !important;
+}
+.UniqHR{
+    display:  flex;
+    flex-grow: 1;
+    max-width: 5px !important;
+    color: #527597;
+    height: 15vw !important;
+    margin: 2px 0.6rem !important;
+}
+.UniqHR2{
+    display:  flex;
+    flex-grow: 1;
+    max-width: 70% !important;
+    color: #527597;
+    height: 3px !important;
+    margin:0.6rem 0.7rem !important ;
+}
+.SkillsHR{
+    display:  flex;
+    flex-grow: 1;
+    max-width: 5px !important;
+    color: #527597;
+    max-height: 10vw !important;
+    margin: 2px auto !important; 
+}
+
+#AboutMe{
+    background: url(../_Imgs/_Backgrounds);
+    background-position-x: 700px;
+    background-repeat: no-repeat;
+    background-size:800px;
+}
+
+#AboutMe img{
+   margin:3rem 1rem !important; 
+}
+
+#AboutMe Ul a{
+    box-sizing: border-box;
+    margin: 0px 0.6rem !important;
+}
+
+.MaxPercentage{
+    display:  flex;
+    flex-grow: 1;
+   
+    color: linear-gradient(45deg #527597,#fff) !important;
+    height:2px !important ;
+    margin: 0.7rem 0px !important;
+} 
+.W90{
+    max-width: 90% !important;
+}
+.W80{
+    max-width: 80% !important;
+}
+.Cv{
+    border: 3px solid #52749763 !important;
+    color: #4a6988 !important;
+}
+.Cv:hover{
+    border: 3px solid #01274d63 !important;
+    color: #195897 !important; 
+}
+
+
+
+.BackImageRazack{
+    background: url(../_Imgs/_Backgrounds/razack.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh !important;
+    opacity: 0.6;
+}
+
+/*CONTACT PAGE*/
+.BgInputs{
+    background-color: #f3f3f3!important;
+}
+
+
+/*Portofolio page*/
+.Portofolio,.Service{  
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  15px 15px 100px #dedede,
+                -15px -15px 100px #ffffff; 
+}
+
+
+.Portofolio img{
+    border-radius: 0.5rem !important;
+    opacity: 0.8;
+    width: 95% !important; 
+}
+
+.Portofolio p,.Service p {
+    font-size: 0.9rem !important;
+}
+.Portofolio h5, .Service h5{
+    color: rgb(218, 249, 255);
+    font-weight: 900 !important;
+    font-size: 1.2rem !important;
+}
+
+
+/*SERVICES PAGE*/
+.Service p{
+    text-align: left !important;
+}
+.ServiceLine{
+    display:  flex;
+    flex-grow: 1;
+    max-width: 5px !important;
+    color: #527597;
+    height: 15vw !important;
+    right: 1rem;
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+   /* background: url(../_Imgs/_Backgrounds/wave.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    
+    background-color:#f3f4f59f !important;
+}
+.InnerNavDiv{
+    background: url(../_Imgs/_Backgrounds/Nav.svg);
+    background-position:0px 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* GALLERY IN pORTOFOLIO */
+
+.TopHeader{
+    font-size: 7vw !important; 
+    font-weight: 800 !important;
+}
+
+.InnerNavDiv2{
+    background: url(../_Imgs/_Backgrounds/gallery.svg);
+    background-position:0px -9.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	padding: 80px 0;
+}
+.gallery img, iframe,.gallery-item{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100% !important;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+    
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  15px 15px 100px #dedede,
+             -15px -15px 100px #ffffff;
+    
+    
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+iframe{
+    max-width: 45rem !important;
+    height: 100% !important;
+    max-height: 25rem !important;
+    min-height: 15rem !important;
+} 
+
+/*END*/
+
+.BarazaBg{
+    background: url(../_Imgs/_Backgrounds/login.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh !important;
+}
+
+#Forum{
+    min-height: 60vh !important;
+}
+.Hobbies{
+    font-size: 4rem !important;
+}
+.ForTheLinks .TheLinks:hover{
+    background-color: #f3f3f3 !important;
+    
+}

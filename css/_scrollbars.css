@@ -1,0 +1,34 @@
+/*CUSTOM SCROLLBARS*/
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(161, 159, 159, 0.781);
+    border-radius: 10px;
+  }
+  
+  
+  #Service, #ContactMe{
+    scroll-margin-top: -8rem !important;
+  }
+  
+  #Portofolio{
+    scroll-margin-top: -7rem !important;
+  } 
+  
+  #Baraza{
+    scroll-margin-top: 8rem !important;
+  } 
+  #Restaurant{
+    scroll-margin-top: 5rem !important;
+  } 
+ 

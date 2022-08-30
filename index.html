@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--- Meta links --->
+        <!-- <base href="/" /> -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        
+        <!--- Page Title --->
+        <title>@Razackreds</title>
+        
+        <!--- Blazor Css Links --->
+        <link href="css/site.css" rel="stylesheet" />
+        <link href="razackreds.styles.css" rel="stylesheet" />
+        
+        <!--- Custom Css Links --->
+        <link href="css/_App.css" rel="stylesheet" />
+        <link href="css/_Flex.css" rel="stylesheet" />
+        <link href="css/_Font.css" rel="stylesheet" />
+        <link href="css/_scrollbars.css" rel="stylesheet" />
+        <link href="css/_Animation.css" rel="stylesheet" />
+        
+        <!--- Bootstrap css --->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+    
+        <!--- AOS --->
+        <link rel="stylesheet" href="AOS/node_modules/aos/dist/aos.css"/>
+        
+        <!--- icons --->
+        <link rel="stylesheet" href="icons-1.8.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div id="app" class="">Loading...</div>
+
+        <div id="blazor-error-ui">
+            An unhandled error has occurred.
+            <a href="" class="reload">Reload</a>
+            <a class="dismiss">🗙</a>
+        </div>
+        
+        <!--- Follows js is for Anchor Tag Navs-->
+            <script>
+                function BlazorScrollToId(id) {
+                    const element = document.getElementById(id);
+                    if (element instanceof HTMLElement) {
+                        element.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start",
+                            inline: "nearest"
+                        });
+                    }
+                }
+            </script>
+        <!-- End for Anchor Tag Navs-->
+        
+        <!--- Scripts Links --->
+        <script src="_js/main.js"></script>
+        <script src="_js/bootstrap.js"></script>
+        <script src="AOS/node_modules/aos/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="_framework/blazor.webassembly.js"></script>
+    </body>
+</html>
